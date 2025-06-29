@@ -71,13 +71,8 @@ public class Main {
         //Task 7
         System.out.println("Task 7");
 
-        int friday = 7;
-        int day = 0;
-        while (day < 31) {
-            day = day + 1;
-            if (day % friday == 0) {
-                System.out.println("Сегодня пятница, " + day + "-е число. Необходимо подготовить отчет");
-            }
+        for (int day = 5; day <= 31; day = day + 7) {
+            System.out.println("Сегодня пятница, " + day + "-е число. Необходимо подготовить отчет");
         }
 
         //Task 8
